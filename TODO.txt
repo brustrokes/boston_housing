@@ -1,0 +1,33 @@
+Visão Geral do Projeto
+Neste projeto, você aplicará conceitos básicos de machine learning em dados coletados de preços de casas em Boston, em Massachusetts, para prever o preço de venda de uma casa nova. Primeiro você irá explorar os dados para obter atributos importantes e estatísticas descritivas sobre o conjunto de dados. Depois você dividirá adequadamente os dados entre dois subconjuntos, o de testes e o de treinamento, e determinará uma métrica adequada para esse problema. Você então irá analisar a performance de um algoritmo de aprendizagem com parâmetros variados e tamanho do conjunto de treinamento. Isso irá permitir que você escolha o modelo ótimo que melhor generaliza os dados desconhecidos. Por último, você testará o modelo ótimo em uma nova amostra e comparará os preços de venda previstos com as suas estatísticas.
+
+Destaques do Projeto
+Este projeto foi projetado para que você se familiarize com trabalhar com conjuntos de dados em Python e aplicar técnicas básicas de machine learning utilizando NumPy e Scikit-Learn. Antes de saber usar muitos dos algoritmos disponíveis na biblioteca sklearn, será de grande ajuda, primeiro, praticar análise e interpretação da performance do seu modelo.
+
+O que você aprenderá ao completar este projeto:
+
+Como utilizar o NumPy para investigar os atributos latentes de um conjunto de dados.
+Como analisar vários gráficos de desempenho de aprendizagem para variância e viés.
+Como determinar o modelo que faz as melhores estimativas para dados desconhecidos.
+Como avaliar o desempenho do modelo em dados desconhecidos utilizando dados anteriores.
+
+Começando o Projeto
+Para essa tarefa, você encontrará o arquivo boston_housing.zip que contém os arquivos necessários do projeto para download na seção Recursos. Você também pode visitar nosso GitHub de projetos de Machine Learning para ter acesso a todos os projetos disponíveis para este Nanodegree.
+
+Este projeto contém três arquivos:
+
+boston_housing.ipynb: Esse é o arquivo principal em que você irá executar seu projeto.
+housing.csv: O conjunto de dados do projeto. Você vai carregar esses dados no Notebook.
+visuals.py: Esse script the Python contém funções auxiliares que criarão as visualizações necessárias.
+No Terminal ou no prompt de comando, navegue até a pasta que contém os arquivos do projeto, e então utilize o comando jupyter notebook boston_housing.ipynb para abrir uma nova janela ou aba do navegador para trabalhar com o seu Notebook. Outra alternativa é utilizar o comando jupyter notebook ou ipython notebook e navegar até o arquivo do Notebook na janela do navegador que se abrir. Siga as instruções no Notebook e responda cada uma das questões apresentadas para concluir o projeto com sucesso. O arquivo README também foi incluído com os arquivos do projeto, e contém informações necessárias adicionais ou instruções para o projeto.
+
+Enviando o Projeto
+Avaliação
+Seu projeto será avaliado por um revisor da Udacity de acordo com a rubrica de projeto Prevendo Preços de Imóveis de Boston. Tenha certeza de ler a rubrica cuidadosamente e autoavaliar-se antes de enviar o projeto. Seu projeto deve atender às especificações da rubrica para que você passe.
+
+Arquivos para Envio
+Quando você estiver pronto para enviar seu projeto, reúna os seguintes arquivos e os comprima em um único arquivo para upload. Outra maneira seria fornecer os seguintes arquivos no seu repositório no GitHub em uma pasta nomeada boston_housing para facilitar o acesso:
+
+O arquivo do Notebook boston_housing.ipynb com todas as perguntas respondidas e todos os blocos de código executados e exibindo a saída.
+Um arquivo em HTML com o nome report.html exportado do Notebook do projeto. Esse arquivo tem que estar presente para que seu projeto seja avaliado.
+Uma vez reunidos esses arquivos e que você tenha lido a rubrica do projeto, vá até a página de envio de projeto.
